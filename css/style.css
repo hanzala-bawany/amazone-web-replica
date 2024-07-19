@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.first-section-of-main-navbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items:center ;
+    height: 12vh;
+    background-color: black;
+
+}
+.pehkliimage:hover{
+    border: 2px solid white;
+}
+/* .first-section-of-main-navbar *{ */
+    /* color: white; */
+/* } */
+.li{
+  height: 40px; 
+}
+.list-ka-child{
+    height: 100%;
+}
+.location-section-ka-baap{
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+}
+.location-section-ka-baap:hover{
+    border: 2px solid;
+}
+.location-ki-wording-ka-baap{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#materialselect-labell-ka-baap{
+    display: flex;
+    flex-direction:column ;
+    color: white;
+}
+.materialselect-and-labell-ka-baap{
+    display: flex;
+    position: relative;
+}
+.materialselect-and-labell-ka-baap:hover{
+    border: 2px solid white;
+}
+ #materialselect{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;  
+} 
+.materialselect-labell-ka-dusrabacha{
+    position: absolute;
+    bottom: 0px;   
+}
+.main-navbar-ke-last-ancartag{
+    display: flex;
+    flex-direction: column;
+}
+.main-navbar-ke-last-ancartag:hover{
+    border: 2px solid;
+}
+.main-navbar-ke-last-ancartag:link{
+color: white;
+}
+.main-navbar-ke-last-ancartag:visited{
+color: white;
+}
+.lastimage:hover{
+    border: 2px solid white;
+}
+.seconfform{
+    background-color:black;
+    color: white;
+    border: none;
+    text-align: center;
+}
+.seconfform:hover{
+    border: 2px solid;
+}
+.firstnavbar-ke-pehle-form-ka-pehla-hissa{
+    background-color: rgb(179, 179, 179);
+    text-align: center;
+    width: 5vw;
+}
+.firstnavbar-ke-pehle-form-ka-dusra-hissa{
+    width: 30vw;
+}
+.firstform{
+    border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+

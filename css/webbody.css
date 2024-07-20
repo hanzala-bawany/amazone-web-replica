@@ -1,3 +1,37 @@
- .webbody-ke-pehle-section-ki-images img{
-    height: 30vh;
+.webbody-iamges-part{
+    display: flex;
+}
+.webbody-ke-pehle-section-ki-image-section{
+    width: 25vw;
+    border: 2px solid;
+    padding: 4%;
+    background-color: rgb(230, 230, 230);
+}
+.webbody-ke-pehle-section-ki-images-ka-p{
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.webbody-ke-pehle-section-ki-image-section img{
+    height: 35vh;
+    width: 100%;
+    border: none;
 } 
+.webbody-ke-pehle-section-ki-image-section figcaption{
+    background-color: white;
+}
+.webbody-ke-pehle-section-ki-image-section figcaption *{
+    margin-top: 5px;
+}
+.figcaption-ka-pehla-p{
+    background-color: beige;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.linethrough{
+    text-decoration: line-through red;
+    margin-left: 10px;
+}
+
+

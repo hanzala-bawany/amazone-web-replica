@@ -1,21 +1,45 @@
+.webbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    /* background-image:linear-gradient(to top ,rgb(248, 239, 239,0.9) ,transparent) ,url('../body images/backgroung\ image.png') ; */
+    /* background-size: 100% 100%; */
+    /* background-position: center; */
+    background: linear-gradient(to top, rgb(245, 244, 242)50%, transparent)50%, url("../body images/backgroung\ image.png");
+    /* mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%); */
+    background-size: cover;
+    background-position: center;
+}
 .webbody-iamges-part{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 35vh;
+    gap: 23px;
+}
+.webbody > section > div {
+    background-color: white;
+}
+
+.webbody-iamges-part-two{
+    margin: auto;
 }
 .webbody-ke-pehle-section-ki-image-section{
-    width: 25vw;
+    width: 30vw;
     border: 2px solid;
     padding: 4%;
-    background-color: rgb(230, 230, 230);
+    /* margin-bottom: 5vh; */
 }
 .webbody-ke-pehle-section-ki-images-ka-p{
     font-size: 35px;
     text-transform: capitalize;
     font-weight: 900;
 }
-.webbody-ke-pehle-section-ki-image-section img{
+.webbody-ke-pehle-section-ki-image{
     height: 35vh;
     width: 100%;
-    border: none;
+    border: none;  
 } 
 .webbody-ke-pehle-section-ki-image-section figcaption{
     background-color: white;
@@ -30,8 +54,141 @@
     text-transform: uppercase;
 }
 .linethrough{
-    text-decoration: line-through red;
     margin-left: 10px;
+    text-decoration: line-through red;
+}
+.webbody-ke-pehle-section-ki-image{
+/* border: 2px solid; */
+display: inline-block;
+}
+.webbody-ke-pehle-section-ki-choti-image-ka-pehla-part{
+    height: 50%;
+}
+.webbody-ke-pehle-section-ki-choti-image-ka-pehla-part img{
+    height: 90%;
+    width: 100%;
+}
+.webbody-ke-pehle-section-ki-choti-image-ka-dusra-part{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.webbody-ke-pehle-section-ki-choti-image-ka-dusra-part img{
+    height: 90%;
+    width: 31.5%;
+    /* margin-bottom: 0px; */
+}
+.webbody-ke-pehle-section-ki-fifth-image-ka-baap-span{
+display: flex;
+flex-wrap: wrap;
+justify-content:space-evenly ;
+margin-top: 6px;
+}
+.webbody-ke-pehle-section-ki-fifth-image-ka-baap-span figure{
+    height: 35%;
+    width: 35%;
+}
+.webbody-ke-pehle-section-ki-fifth-image-ka-baap-span img{
+    height: 100%;
+    width: 100%;
+}
+.webbody-iamges-part{
+    width:94vw;
+}
+.long-images-and-figcaption-ka-baap{
+    width: 94vw;
+    height: 32vh;
+    display: flex;
+    flex-direction: column ;
+    border: 2px solid;
+    padding: 4px 4%;
+    /* margin-bottom: 5vh; */
+}
+.webbody-longwidth-images-part-one{
+    position: relative;
+    background-color: white;
 }
 
+.pehle-wale-arrow-button{
+    height: 15vh;
+    width: 5vw;
+}    
+.pehle-wale-arrow-button:hover{
+    border: 2px solid;
+    background-color: rgb(218, 218, 218);
+}
+.pehle-wala-arrow-button-left{
+    left: 0vw;
+    top: 8vh;
+    position: absolute;
+}
+.pehle-wala-arrow-butto-right{
+    right: 0vw;
+    top: 8vh;
+    position: absolute;
+}
+.webbody-longwidth-images-part-two{
+    position: relative;
+    background-color: white;
+}
+.arrow-button{
+    height: 15vh;
+    width: 5vw;
+}
+.arrow-button:hover{
+    border: 2px solid;
+    background-color: rgb(218, 218, 218);
+    /* box-shadow: -2px 1px 2px 2px red; */
+}
+.arrow-button-left{
+left: 0vw;
+top: 8vh;
+position: absolute;
+
+}
+.arrow-button-right{
+    right: 0vw;
+    top: 8vh;
+    position: absolute;
+}
+.capitalize{
+    text-transform: capitalize;
+    font-family:"Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;;
+}
+.long-images-ka-baap{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.long-images-ka-baap div:first-child{
+    height: 90%;
+    width: 18%;
+}
+.long-image-me-image-ka-div img{ 
+    height: 100%;
+    width: 100%;
+}
+.webbody-ke-pehle-section-ki-image-ka-baap-span-cssgrid-wala{
+    display: grid;  
+    grid-template-columns: auto auto;
+}
+.grid-images{
+    height: 50%;
+    width: 50%;
+}
+.pehli-image {
+
+}
+.dusri-image{
+
+}
+.tesri-image{
+    /* grid-row: ; */
+    /* grid-column: 1/3; */
+}
 

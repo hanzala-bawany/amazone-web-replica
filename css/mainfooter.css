@@ -1,0 +1,131 @@
+.mainfooter{
+height: 180vh;
+width: 100%;
+/* border: 2px solid red; */
+}
+.mainfooter-ka-pehla-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+    background-color: rgb(41, 51, 69);
+}
+.mainfooter-ka-pehla-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+} 
+.mainfooter-ka-pehla-button:hover{
+    background-color:rgba(88, 97, 114, 0.653);         
+}
+.mainfooter-ka-dusra-part{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#232F3E;
+    position: relative;
+}
+.mainfooter-ka-dusra-part > div:nth-child(1){
+height:70%;
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.mainfooter-ka-dusra-part-ke-pote{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 20px;
+    margin-top: 40px;
+    color: white;
+}
+.mainfooter-ka-dusra-part-ke-pote span:nth-child(1){
+ font-weight: bold;
+ font-size: 20px;
+}
+.mainfooter-ka-dusra-part-ka-second-child{
+    height: 25%;
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 3vw;
+    /* transform: translateX(140px); */
+}
+.beta{
+    color: white;
+    height: 30%;
+    width: 15%;
+    border: 1px solid;
+}
+.beta-one{
+    border: none;
+}
+.beta-one img{
+ height: 100%;
+ width: 100%;   
+}
+.beta-two img{
+    height:40%;
+    width: 20%;
+    margin-right: 6px;
+}
+ .beta-two {
+display: flex;
+justify-content: center;    
+} 
+
+.beta-four img{
+    height:40% ;
+    width: 20%;
+    margin-right: 6px;
+}
+.mainfooter-ka-dusra-part-ka-second-child > a{
+    display: inline-block;
+    text-decoration-line: none ;
+}
+.beta-two:hover,.beta-three:hover,.beta-four:hover{
+    border: 2px solid rgb(45, 45, 234);
+}
+.end-footer{
+    height: 50%;
+    width: 100%;
+    background-color: #131A22;    
+}
+.end-footer-ka-child{
+    height: 100%;
+    width: 100%;
+    transform: translateY(20px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+
+
+}
+.end-footer a{
+    color: white;
+    text-decoration-line: none ;
+    width: 14%;
+    
+}
+.bold{
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+

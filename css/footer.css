@@ -1,0 +1,107 @@
+.forflex-images-with-strong-ka-baap{
+    height: 75vh;
+    width: 100%;
+    border: 1px solid;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+} 
+ .strong-of-for-flex{
+    font-size: 25px;
+    height: 15%;
+    display: flex;
+    align-items: center;
+} 
+.strong-of-for-flex strong{
+    font-size: 25px;
+    margin-left:15px;
+}
+.forflex-images-ka-baap{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    height: 85%;
+    width: 100%;
+} 
+.forflex-image{
+width: 15%;
+height: 100%;
+
+}
+.forflex-image img{
+width: 100%;
+height: 42%;
+}
+.forflex-image img+div a{
+    color: green;
+    text-decoration: none;
+}
+.size{
+    font-size: 15px;    
+}
+.forflex-image img+div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 56%;
+}
+.forflex-image div span:nth-child(2){
+    color: rgb(64, 64, 19);
+    font-size: 20px;
+    font-weight: 600;
+}
+.forflex-image img+div select{
+    border: none;
+    color: rgb(219, 42, 42);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-se-pehle-wala-section{
+   height: 30vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+}
+.footer-se-pehle-wala-section a{
+    border: 2px solid rgb(237, 202, 25);
+    width:20vw ;
+    text-decoration: none;
+    display: inline-block;
+    background:linear-gradient(to top, rgb(237, 202, 25),rgba(237, 202, 25,0.4));
+    font-weight: bold;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    /* transition-delay: 2s; */
+}
+.footer-se-pehle-wala-section a:hover{
+    background-color: darkorange;
+}
+.footer-se-pehle-wala-section a:active{
+    transform: scale(20%);
+}
+.footer-se-pehle-wala-section div:nth-child(1),.footer-se-pehle-wala-section div:nth-child(3){
+    font-size: 20px;
+} 
+
+

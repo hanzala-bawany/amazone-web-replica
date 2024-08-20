@@ -23,6 +23,7 @@
 }
 .list-ka-child{
     height: 100%;
+    text-decoration: none;
 }
 .location-section-ka-baap{
     display: flex;
@@ -97,6 +98,16 @@ color: white;
 }
 .firstform{
     border: 2px solid red;
+}
+.american-flag-ka-baap{
+    height: 100%;
+}
+.american-flag-ka-baap img{
+    height: 50%;
+    transform: translateY(8px);
+}
+.seconfform{
+    width: 35px;
 }
 
 

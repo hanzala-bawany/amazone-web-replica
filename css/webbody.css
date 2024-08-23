@@ -11,6 +11,17 @@
     background-size: cover;
     background-position: center;
 }
+/* .bg1{   
+    background-color: aqua;
+    background: linear-gradient(to top, rgb(245, 244, 242)50%, transparent)50%, url("../body images/backgroung\ image.png");
+} */
+.longimagesbg{
+    /* transform:translateY(23px); */
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
 .webbody-iamges-part{
     display: flex;
     flex-wrap: wrap;
@@ -24,6 +35,8 @@
 
 .webbody-iamges-part-two{
     margin: auto;
+    /* margin-top: 23px; */
+    /* background-color: aqua; */
 }
 .webbody-ke-pehle-section-ki-image-section{
     width: 30vw;
